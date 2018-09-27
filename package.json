@@ -1,0 +1,40 @@
+{
+  "_args": [
+    [
+      "components-ember@https://github.com/components/ember/tarball/2.2.0",
+      "/Users/xiaohui/Remote/house_code_mp"
+    ]
+  ],
+  "_from": "components-ember@https://github.com/components/ember/tarball/2.2.0",
+  "_id": "components-ember@https://github.com/components/ember/tarball/2.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-DaXhNFvzDoYkwDRMG+9beX8yH/ngoM3zI1/DIwUEmWuBuuFI700SIXqtbClu/6jMUm3QkqV4k3VfuGysmwoiZg==",
+  "_location": "/components-ember",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "components-ember@https://github.com/components/ember/tarball/2.2.0",
+    "name": "components-ember",
+    "escapedName": "components-ember",
+    "rawSpec": "https://github.com/components/ember/tarball/2.2.0",
+    "saveSpec": "https://github.com/components/ember/tarball/2.2.0",
+    "fetchSpec": "https://github.com/components/ember/tarball/2.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": false,
+  "_spec": "https://github.com/components/ember/tarball/2.2.0",
+  "_where": "/Users/xiaohui/Remote/house_code_mp",
+  "dependencies": {
+    "jquery": ">=1.7.0 < 2.2.0"
+  },
+  "description": "Ember Application Framework",
+  "keywords": [
+    "ember"
+  ],
+  "license": "MIT",
+  "main": "./ember.debug.js",
+  "name": "components-ember",
+  "version": "2.2.0"
+}
