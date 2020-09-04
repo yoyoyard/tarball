@@ -1,11 +1,11 @@
 default:
-	@curl -O http://builds.emberjs.com/tags/$(VERSION)/ember.js
-	@curl -O http://builds.emberjs.com/tags/$(VERSION)/ember-docs.json
-	@curl -O http://builds.emberjs.com/tags/$(VERSION)/ember.debug.js
-	@curl -O http://builds.emberjs.com/tags/$(VERSION)/ember.min.js
-	@curl -O http://builds.emberjs.com/tags/$(VERSION)/ember.prod.js
-	@curl -O http://builds.emberjs.com/tags/$(VERSION)/ember-testing.js
-	@curl -O http://builds.emberjs.com/tags/$(VERSION)/ember-template-compiler.js
-	@curl -O http://builds.emberjs.com/tags/$(VERSION)/ember-runtime.js
+	# @curl -O https://cdn.jsdelivr.net/npm/ember-source@2.18.2/dist/ember.js
+	# @curl -O https://cdn.jsdelivr.net/npm/ember-source@2.18.2/dist/ember-docs.json
+	@curl -O https://cdn.jsdelivr.net/npm/ember-source@2.18.2/dist/ember.debug.js
+	@curl -O https://cdn.jsdelivr.net/npm/ember-source@2.18.2/dist/ember.min.js
+	@curl -O https://cdn.jsdelivr.net/npm/ember-source@2.18.2/dist/ember.prod.js
+	@curl -O https://cdn.jsdelivr.net/npm/ember-source@2.18.2/dist/ember-testing.js
+	@curl -O https://cdn.jsdelivr.net/npm/ember-source@2.18.2/dist/ember-template-compiler.js
+	@curl -O https://cdn.jsdelivr.net/npm/ember-source@2.18.2/dist/ember-runtime.js
 
 .PHONY: default
